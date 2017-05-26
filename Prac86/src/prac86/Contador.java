@@ -1,5 +1,4 @@
 package prac86;
-
 /**
  * Clase con los constructores por defecto, con parámetros y copia, además de manipular el contador.
  */

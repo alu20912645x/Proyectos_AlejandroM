@@ -1,7 +1,6 @@
 package prac86;
 
 import java.util.Scanner;
-
 /**
  * Crea una clase "Contador" con métodos para incrementar y decrementar el contador.
  * @author <h2><u>Alejandro Martín Álvarez</u></h2>
@@ -46,5 +45,4 @@ public class Principal {
             }
         } while (opción!=4);
     }
-    
 }
