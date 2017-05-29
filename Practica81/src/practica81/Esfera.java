@@ -13,7 +13,7 @@ public class Esfera {
      * @param PI Número PI.
      */
     private float radio, área, volumen;
-    private final float PI=3.1416F;
+    private final float PI=3.1416F; //No es preciso pues "Math.PI" hubiese valido.
     /**
      * @return Devuelve el radio que se ha pedido por teclado.
      */
@@ -42,7 +42,7 @@ public class Esfera {
         return área;
     }
     /**
-     * Asignación de la operación del volumen de la esfera. 
+     * Asignación de la operación del volumen de la esfera.
      */
     public void SetVolumen(){
         volumen=(float) ((Math.pow(radio,3))*4/3*PI);
